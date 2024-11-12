@@ -1,9 +1,9 @@
 # Challenge-Conversor_de_monedas
-# Conversor de Monedas - Desafío de Programación
+# Conversor de Monedas - Desafío ALURA
 
 ## Descripción
 
-¡Bienvenido al desafío de programación! En este proyecto, construí un **Conversor de Monedas** utilizando **Java**. El programa realiza solicitudes a una API de tasas de cambio, maneja respuestas en formato JSON, filtra monedas específicas y convierte valores de una moneda a otra de manera interactiva. A lo largo de este desafío, aprendí a utilizar **HttpClient** para realizar solicitudes HTTP, **Gson** para el análisis de respuestas JSON, y cómo interactuar eficientemente con APIs.
+¡Bienvenido al desafío de programación para el challenge de Alura! En este proyecto, construí un **Conversor de Monedas** utilizando **Java**. El programa realiza solicitudes a una API de tasas de cambio, maneja respuestas en formato JSON, filtra monedas específicas y convierte valores de una moneda a otra de manera interactiva. A lo largo de este desafío, aprendí a utilizar **HttpClient** para realizar solicitudes HTTP, **Gson** para el análisis de respuestas JSON, y cómo interactuar eficientemente con APIs.
 
 ### Objetivo:
 Desarrollar una aplicación de consola que permita convertir valores entre diferentes monedas utilizando tasas de cambio obtenidas desde una API externa. El sistema es interactivo y permite al usuario elegir entre varias opciones de conversión.
@@ -45,11 +45,11 @@ Implementé un menú interactivo en la consola donde el usuario puede selecciona
 1. Cloné el repositorio:
    ```bash
    git clone <URL_del_repositorio>
-###Abrí el proyecto en mi IDE preferido (IntelliJ IDEA).
+###**Abrí el proyecto en mi IDE preferido (IntelliJ IDEA).**
 
-Me aseguré de tener las dependencias necesarias configuradas en mi archivo pom.xml o build.gradle si usé Maven o Gradle.
+###Me aseguré de tener las dependencias necesarias configuradas en mi archivo pom.xml o build.gradle si usé Maven o Gradle.
 
-Ejecuté el archivo ExchangeRateClient.java:
+###Ejecuté el archivo ExchangeRateClient.java:
 
 bash
 Copiar código
@@ -82,12 +82,13 @@ Copiar código
    Cómo Funciona
    Obtención de las tasas de cambio: El programa realiza una solicitud HTTP a la API y recibe las tasas de cambio para diferentes monedas. Estas tasas se deserializan desde el formato JSON utilizando Gson.
    Conversión de monedas: El valor ingresado por el usuario se convierte de acuerdo con la tasa de cambio seleccionada. El programa muestra el resultado de la conversión en la consola.
-   Contribuir
-   Si deseas contribuir a este proyecto, sigue estos pasos:
 
-Haz un fork del repositorio.
-Crea una rama para tu funcionalidad o corrección de errores.
-Realiza tus cambios y prueba que todo funcione correctamente.
-Envía un pull request con una descripción clara de lo que has hecho.
-Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
+## Conclusión
+
+Este proyecto ha sido una excelente oportunidad para profundizar en la interacción con APIs, el análisis de datos JSON y la implementación de un conversor de monedas funcional en **Java**. A lo largo de este desafío, he aprendido a utilizar herramientas clave como **HttpClient** para realizar solicitudes HTTP y **Gson** para trabajar con datos JSON, lo que me ha permitido crear una aplicación robusta y eficiente.
+
+El proceso de desarrollo también me permitió mejorar mis habilidades en la estructuración de programas interactivos mediante el uso de la consola y la gestión de la entrada del usuario. Además, la implementación de la lógica de conversión y el filtrado de monedas me ha proporcionado una comprensión más profunda sobre cómo manipular datos dinámicos de una API y ofrecer una experiencia fluida para el usuario.
+
+Este desafío representa la culminación de un proceso de aprendizaje y me ha permitido consolidar mis conocimientos sobre programación en **Java**, desarrollo de aplicaciones con **API** y manipulación de datos en formatos como **JSON**. Estoy satisfecho con el resultado y, al mismo tiempo, motivado para seguir perfeccionando mis habilidades de programación y explorar nuevas áreas de desarrollo.
+
+¡Gracias por seguir este recorrido y espero que este proyecto sea de utilidad para ti!
